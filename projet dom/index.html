@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shopping Cart</title>
+    <script src="https://kit.fontawesome.com/6aacddc4bc.js" crossorigin="anonymous"></script>
+
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      charset="utf-8"
+    ></script>
+    <meta name="robots" content="noindex,follow" />
+  </head>
+<body>
+    <div class="basket">
+        <!-- <div class="basket-module">
+          <label for="promo-code">Enter a promotional code</label>
+          <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+          <button class="promo-code-cta">Apply</button>
+        </div> -->
+        <div class="basket-labels">
+          <ul>
+            <li class="item item-heading">Item</li>
+            <li class="price">Price</li>
+            <li class="quantity">Quantity</li>
+            <li class="subtotal">Subtotal</li>
+          </ul>
+        </div>
+        <div class="basket-product">
+          <div class="item">
+            <div class="product-image">
+              <img src="item-1.png"  class="product-frame">
+            </div>
+            <div class="product-details">
+              <h1><strong><span class="item-quantity"></span>samsung 10kg</strong>        machine à lavez 10 kg samsung </h1>
+               <p><strong>silver</strong></p>
+             
+            </div> 
+          </div>
+          <div class="price">1950.00</div>
+          <div class="quantity">
+            <input type="number" value="1" min="1" class="quantity-field">
+          </div>
+          <div class="subtotal">1950.00</div>
+          <div class="remove">
+            <button>Remove</button>
+          </div>
+          <div class="buttons">
+           <span class="like-btn"></span>
+          </div>
+          
+        </div>
+        <div class="basket-product">
+          <div class="item">
+            <div class="product-image">
+              <img src="item-3.png" class="product-frame">
+            </div>
+            <div class="product-details">
+              <h1><strong><span class="item-quantity"></span>climatiseur</strong> climatiseur haier 12000btu</h1>
+              <p><strong>blanc</strong></p>
+              
+            </div>
+          </div>
+          <div class="price">1300.00</div>
+          <div class="quantity">
+            <input type="number" value="1" min="1" class="quantity-field">
+          </div>
+          <div class="subtotal">1300.00</div>
+          <div class="remove">
+            <button>Remove</button>
+          </div>
+          <div class="buttons">
+           
+            <span class="like-btn"></span>
+          </div>
+        </div>
+      </div>
+      <aside>
+        <div class="summary">
+          <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
+           <div class="summary-subtotal"> 
+            <div class="subtotal-title">Subtotal</div>
+            <div class="subtotal-value final-value" id="basket-subtotal">3250.00</div>
+          </div>
+          <div class="summary-total">
+            <div class="total-title">Total</div>
+            <div class="total-value final-value" id="basket-total">3250.00</div>
+          </div>
+          <div class="summary-checkout">
+            <button class="checkout-cta">Go to Secure Checkout</button>
+          </div>
+        </div>
+      </aside>
+  
+</body>
+<script src="cart.js"></script>
+</html>
